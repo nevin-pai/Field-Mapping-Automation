@@ -1,0 +1,16 @@
+{
+	"secondary_path":"C:\\Users\\Public\\Downloads\\SummaryDM\\12Oct2022\\SF",
+	"primary_path":"C:\\Users\\Public\\Downloads\\SummaryDM\\12Oct2022\\AD",
+	"col_to_be_ignored_from_secondary":"[]",
+	"col_to_be_ignored_from_primary":"[]",
+	"col_to_considered_from_secondary":"[source_uuid, employee_id, email, external_email_id, personal_email, object_name, object_full_name, source_object_id, user_name]",
+	"col_to_considered_from_primary":"[sam_account_name, object_full_name, object_distinguished_name, user_principal_name, object_guid, employee_id, external_object_id, object_sid, email, dns_hostname, service_principal_name, source_uuid, entity_id, source_object_id, device_name, entity_full_name, entity_name, user_name, azuread_id, last_logon]",
+	"inventory_source_of_truth_explode":"False",
+	"secondary_duplicate_update":"{}",
+	"primary_duplicate_update":"{'employee_id': 'last_logon'}",
+	"inventory_remove_source_name": "[]", 
+	"matrix":"False",
+	"random":"True",
+	"priority_from_secondary":"[employee_id, email, object_full_name]",
+	"priority_from_secondary_random":"False"	
+}
